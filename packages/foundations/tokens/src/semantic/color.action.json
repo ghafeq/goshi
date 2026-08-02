@@ -1,0 +1,38 @@
+{
+  "color": {
+    "action": {
+      "primary":   {
+        "solid": { "value": "{color.warmGray.60.value}" },
+        "subtle": { "value": "{color.warmGray.10.value}" },
+        "gradient": { "value": { "from": "{color.warmGray.90.value}", "to": "{color.warmGray.80.value}" }, "comment": "Default/Loading fill — Figma uses a gradient here, not a flat colour" }
+      },
+      "secondary": { "solid": { "value": "{color.coolGray.80.value}" }, "subtle": { "value": "{color.coolGray.10.value}" } },
+      "tertiary":  { "solid": { "value": "{color.coolGray.80.value}" }, "subtle": { "value": "{color.coolGray.10.value}" } },
+      "danger":    {
+        "solid": { "value": "{color.red.50.value}" },
+        "subtle": { "value": "{color.coolGray.10.value}" },
+        "gradient": { "value": { "from": "{color.red.50.value}", "to": "{color.red.40.value}" }, "comment": "Pressed fill — Figma uses a gradient here, not a flat colour" }
+      },
+      "skeleton": {
+        "trough": { "value": "{color.coolGray.10.value}", "comment": "Universal skeleton-loading placeholder background, same across every button variant (confirmed from Figma — Primary/Secondary/Tertiary/Destructive all use this exact value for their Skeleton state)" }
+      }
+    },
+    "text": {
+      "base": {
+        "inverse": {
+          "primary": { "value": "{color.gray.100.value}" },
+          "subtle":  { "value": "{color.coolGray.50.value}" },
+          "low":     { "value": "{color.gray.10.value}" }
+        }
+      },
+      "feedback": {
+        "inverse": {
+          "danger": {
+            "strong": { "value": "{color.red.60.value}" },
+            "low":    { "value": "{color.red.30.value}" }
+          }
+        }
+      }
+    }
+  }
+}

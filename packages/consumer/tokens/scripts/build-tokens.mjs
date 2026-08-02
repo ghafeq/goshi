@@ -9,6 +9,7 @@ await buildTokenVariant({
   source: [
     ...FOUNDATION_PRIMITIVE,
     '../../foundations/tokens/src/semantic/color.light.json',
+    '../../foundations/tokens/src/semantic/color.action.json',
     'src/alias.color.json',
     ...ALIAS_SCALE,
   ],
@@ -24,6 +25,7 @@ await buildTokenVariant({
   source: [
     ...FOUNDATION_PRIMITIVE,
     '../../foundations/tokens/src/semantic/color.dark.json',
+    '../../foundations/tokens/src/semantic/color.action.json',
     'src/alias.color.json',
     ...ALIAS_SCALE,
   ],

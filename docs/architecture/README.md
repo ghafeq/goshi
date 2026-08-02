@@ -12,3 +12,4 @@ supersedes it and say so.
 | [0003](0003-token-pipeline-style-dictionary.md) | Token pipeline: Style Dictionary + a custom nested-output format |
 | [0004](0004-figma-sync-status.md) | Figma sync status — why token values are placeholders, and how to replace them |
 | [0005](0005-consumer-enterprise-sharing-model.md) | Consumer/Enterprise sharing & override model |
+| [0006](0006-figma-consumer-sync.md) | Figma Consumer sync: Shimmer, Loader, Buttons — real token values, and what's flagged rather than assumed (including why Tags isn't built) |

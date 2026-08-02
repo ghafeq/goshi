@@ -30,7 +30,10 @@ a clean slate rather than adapting an incumbent choice.
   makes internal dependencies explicit and safe to publish (Changesets
   rewrites `workspace:*` to real version ranges on publish).
 - **pnpm workspaces**, scoped to `packages/*/*` (leaf packages only — see
-  below) and `tooling/*` (internal, unpublished build tooling).
+  below), `packages/*/components/*` and `packages/*/patterns/*` (individual
+  components/patterns are one level deeper still — added when the first
+  components landed, see ADR 0006), and `tooling/*` (internal, unpublished
+  build tooling).
 - **Turborepo** for task orchestration (`build`, `typecheck`, `lint`,
   `test`, `tokens:build`), with a task graph declared once in
   `turbo.json`. This is what makes "shared foundations built before

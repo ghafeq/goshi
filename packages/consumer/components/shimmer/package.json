@@ -1,0 +1,43 @@
+{
+  "name": "@goshi/consumer-components-shimmer",
+  "version": "0.1.0",
+  "description": "Consumer (React Native) Shimmer — sweeping skeleton-loading highlight, translated 1:1 from the Goshi Design System (Consumer) Figma file.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "react-native": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "react-native": "./src/index.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "src"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint src --ext .ts,.tsx",
+    "test": "vitest run",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@goshi/foundations-tokens": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": ">=18.2.0",
+    "react-native": ">=0.73.0",
+    "react-native-linear-gradient": ">=2.8.0",
+    "react-native-reanimated": ">=3.10.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "react-native": "^0.76.3",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-reanimated": "^3.16.1",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  }
+}

@@ -15,12 +15,16 @@ start with
 [0005 — Consumer/Enterprise sharing & override model](docs/architecture/0005-consumer-enterprise-sharing-model.md)
 if you want the short version.
 
-> **Stage 1 of the design system (current).** Foundations only — tokens,
-> typography, icons. No components or patterns yet. Colour and Consumer
-> typography values are **placeholders pending Figma sync** — see
-> [0004 — Figma sync status](docs/architecture/0004-figma-sync-status.md)
-> before using any colour or Consumer typography value in a real product
-> surface.
+> **Status.** Foundations are built. Consumer has its first three
+> components — Loader, Shimmer, Button — translated from the real Goshi
+> Design System (Consumer) Figma file; see
+> [0006 — Figma Consumer sync](docs/architecture/0006-figma-consumer-sync.md)
+> for exactly what's confirmed-real vs. still-placeholder, and what's
+> flagged rather than assumed (a **Tags** component was requested but has
+> no Figma design yet, so it isn't built). Enterprise has no components
+> yet. Colour/typography outside what those three Consumer components
+> touch is still placeholder — see
+> [0004 — Figma sync status](docs/architecture/0004-figma-sync-status.md).
 
 ## Package layout
 
@@ -34,7 +38,10 @@ packages/
     tokens/          @goshi/consumer-tokens        con.* — aliases foundations + con typography
     typography/      @goshi/consumer-typography    con.typography.* (React Native)
     react-native/    @goshi/consumer-react-native  ThemeProvider, useTheme, Icon (wraps lucide-react-native)
-    components/       reserved — not built yet
+    components/
+      loader/        @goshi/consumer-components-loader   indeterminate spinner
+      shimmer/       @goshi/consumer-components-shimmer  skeleton-loading sweep highlight
+      button/        @goshi/consumer-components-button   3 sizes x 2 shapes x 4 variants x 5 states
     patterns/          reserved — not built yet
 
   enterprise/
@@ -51,8 +58,10 @@ docs/
   architecture/       ADRs — read these before making structural changes
 ```
 
-Every leaf package under `packages/*/*` is independently versioned
-(Changesets) and independently built (Turborepo task graph). See
+Every leaf package under `packages/*/*` (and `packages/*/components/*` /
+`packages/*/patterns/*`, one level deeper for individual
+components/patterns) is independently versioned (Changesets) and
+independently built (Turborepo task graph). See
 [0001 — Monorepo tooling](docs/architecture/0001-monorepo-tooling.md) for why.
 
 ## Getting started
@@ -83,8 +92,8 @@ object-access path in code — see
 
 ## Status / what's next
 
-This stage covers foundations only, per the brief. Not yet started:
-components, patterns, Storybook, Figma Code Connect, visual regression
-testing, and an actual publish/release CI job (Changesets is configured but
-nothing has shipped a release yet). See the architecture docs for what each
-of those will build on top of.
+Not yet started: Tags (blocked on a Figma design), Enterprise components,
+patterns, Storybook, Figma Code Connect, visual regression testing, and an
+actual publish/release CI job (Changesets is configured but nothing has
+shipped a release yet). See the architecture docs for what each of those
+will build on top of.

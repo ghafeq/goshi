@@ -2,7 +2,7 @@
   "con": {
     "typography": {
       "fontFamily": {
-        "base": { "value": "Inter", "comment": "PLACEHOLDER — pending export from Figma Type Sets (Expressive) library" }
+        "base": { "value": "Inter", "comment": "Confirmed from Figma Goshi Design System (Consumer) — Buttons component variable `copy`" }
       },
       "display": {
         "lg": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 57, "lineHeight": 64, "fontWeight": "700", "letterSpacing": -0.25 }, "comment": "PLACEHOLDER — pending Figma sync" },
@@ -28,6 +28,10 @@
       },
       "caption": {
         "md": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 12, "lineHeight": 16, "fontWeight": "400", "letterSpacing": 0.2 }, "comment": "PLACEHOLDER — pending Figma sync" }
+      },
+      "button": {
+        "lg": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 16, "lineHeight": 24, "fontWeight": "600", "letterSpacing": 0 }, "comment": "Confirmed from Figma Goshi Design System (Consumer) — Buttons component, style `Expressive/button-01` (Size=Normal)" },
+        "sm": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 14, "lineHeight": 22, "fontWeight": "600", "letterSpacing": 0 }, "comment": "Confirmed from Figma Goshi Design System (Consumer) — Buttons component, style `Expressive/button-02` (Size=Small/Bare)" }
       }
     }
   }

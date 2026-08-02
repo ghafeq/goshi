@@ -1,40 +1,40 @@
 {
   "color": {
     "background": {
-      "primary":   { "value": "{color.white.value}", "comment": "Pairs with text.primary (neutral.900) — placeholder, pending Figma contrast audit" },
-      "secondary": { "value": "{color.neutral.50.value}", "comment": "Pairs with text.primary" },
-      "tertiary":  { "value": "{color.neutral.100.value}", "comment": "Pairs with text.primary" },
-      "inverse":   { "value": "{color.neutral.900.value}", "comment": "Pairs with text.inverse" },
-      "disabled":  { "value": "{color.neutral.100.value}", "comment": "Pairs with text.disabled" }
+      "primary":   { "value": "{color.white.value}", "comment": "Pairs with text.primary (gray.100) — placeholder, pending Figma contrast audit" },
+      "secondary": { "value": "{color.gray.10.value}", "comment": "Pairs with text.primary" },
+      "tertiary":  { "value": "{color.gray.20.value}", "comment": "Pairs with text.primary" },
+      "inverse":   { "value": "{color.gray.100.value}", "comment": "Pairs with text.inverse" },
+      "disabled":  { "value": "{color.gray.20.value}", "comment": "Pairs with text.disabled" }
     },
     "surface": {
       "raised":  { "value": "{color.white.value}" },
       "overlay": { "value": "rgba(11, 13, 16, 0.48)" }
     },
     "text": {
-      "primary":   { "value": "{color.neutral.900.value}", "comment": "AA on background.primary/secondary/tertiary — placeholder, pending Figma contrast audit" },
-      "secondary": { "value": "{color.neutral.700.value}", "comment": "AA on background.primary/secondary — placeholder, pending Figma contrast audit" },
-      "tertiary":  { "value": "{color.neutral.500.value}", "comment": "Large text / non-critical only — placeholder, pending Figma contrast audit" },
-      "disabled":  { "value": "{color.neutral.400.value}" },
+      "primary":   { "value": "{color.gray.100.value}", "comment": "AA on background.primary/secondary/tertiary — placeholder, pending Figma contrast audit" },
+      "secondary": { "value": "{color.gray.80.value}", "comment": "AA on background.primary/secondary — placeholder, pending Figma contrast audit" },
+      "tertiary":  { "value": "{color.gray.60.value}", "comment": "Large text / non-critical only — placeholder, pending Figma contrast audit" },
+      "disabled":  { "value": "{color.gray.50.value}" },
       "inverse":   { "value": "{color.white.value}", "comment": "AA on background.inverse — placeholder, pending Figma contrast audit" },
       "link":      { "value": "{color.blue.600.value}", "comment": "AA on background.primary/secondary — placeholder, pending Figma contrast audit" }
     },
     "border": {
-      "default": { "value": "{color.neutral.200.value}" },
-      "subtle":  { "value": "{color.neutral.100.value}" },
-      "strong":  { "value": "{color.neutral.400.value}" },
+      "default": { "value": "{color.gray.30.value}" },
+      "subtle":  { "value": "{color.gray.20.value}" },
+      "strong":  { "value": "{color.gray.50.value}" },
       "focus":   { "value": "{color.blue.500.value}" }
     },
     "icon": {
-      "default": { "value": "{color.neutral.700.value}" },
-      "subtle":  { "value": "{color.neutral.500.value}" },
+      "default": { "value": "{color.gray.80.value}" },
+      "subtle":  { "value": "{color.gray.60.value}" },
       "inverse": { "value": "{color.white.value}" }
     },
     "feedback": {
       "danger": {
-        "background": { "value": "{color.red.50.value}" },
-        "foreground": { "value": "{color.red.700.value}", "comment": "AA on feedback.danger.background — placeholder, pending Figma contrast audit" },
-        "border":     { "value": "{color.red.200.value}" }
+        "background": { "value": "{color.red.10.value}" },
+        "foreground": { "value": "{color.red.80.value}", "comment": "AA on feedback.danger.background — placeholder, pending Figma contrast audit" },
+        "border":     { "value": "{color.red.30.value}" }
       },
       "success": {
         "background": { "value": "{color.green.50.value}" },
@@ -57,7 +57,7 @@
         "default":    { "value": "{color.blue.500.value}" },
         "hover":      { "value": "{color.blue.600.value}" },
         "pressed":    { "value": "{color.blue.700.value}" },
-        "disabled":   { "value": "{color.neutral.200.value}" },
+        "disabled":   { "value": "{color.gray.30.value}" },
         "foreground": { "value": "{color.white.value}", "comment": "AA on interactive.primary.default/hover/pressed — placeholder, pending Figma contrast audit" }
       }
     }

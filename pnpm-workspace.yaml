@@ -2,6 +2,10 @@ packages:
   # Leaf packages only — the mode/category folders themselves
   # (foundations, consumer, enterprise) are organisational, not packages.
   - "packages/*/*"
+  # components/ and patterns/ are one level deeper still: each individual
+  # component/pattern (e.g. packages/consumer/components/button) is its own package.
+  - "packages/*/components/*"
+  - "packages/*/patterns/*"
   - "tooling/*"
 allowBuilds:
   '@bundled-es-modules/glob': true

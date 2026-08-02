@@ -18,7 +18,22 @@
         "tertiary":  { "value": "{color.text.tertiary.value}" },
         "disabled":  { "value": "{color.text.disabled.value}" },
         "inverse":   { "value": "{color.text.inverse.value}" },
-        "link":      { "value": "{color.text.link.value}" }
+        "link":      { "value": "{color.text.link.value}" },
+        "base": {
+          "inverse": {
+            "primary": { "value": "{color.text.base.inverse.primary.value}" },
+            "subtle":  { "value": "{color.text.base.inverse.subtle.value}" },
+            "low":     { "value": "{color.text.base.inverse.low.value}" }
+          }
+        },
+        "feedback": {
+          "inverse": {
+            "danger": {
+              "strong": { "value": "{color.text.feedback.inverse.danger.strong.value}" },
+              "low":    { "value": "{color.text.feedback.inverse.danger.low.value}" }
+            }
+          }
+        }
       },
       "border": {
         "default": { "value": "{color.border.default.value}" },
@@ -60,6 +75,23 @@
           "pressed":    { "value": "{color.interactive.primary.pressed.value}" },
           "disabled":   { "value": "{color.interactive.primary.disabled.value}" },
           "foreground": { "value": "{color.interactive.primary.foreground.value}" }
+        }
+      },
+      "action": {
+        "primary":   {
+          "solid": { "value": "{color.action.primary.solid.value}" },
+          "subtle": { "value": "{color.action.primary.subtle.value}" },
+          "gradient": { "value": "{color.action.primary.gradient.value}" }
+        },
+        "secondary": { "solid": { "value": "{color.action.secondary.solid.value}" }, "subtle": { "value": "{color.action.secondary.subtle.value}" } },
+        "tertiary":  { "solid": { "value": "{color.action.tertiary.solid.value}" },  "subtle": { "value": "{color.action.tertiary.subtle.value}" } },
+        "danger":    {
+          "solid": { "value": "{color.action.danger.solid.value}" },
+          "subtle": { "value": "{color.action.danger.subtle.value}" },
+          "gradient": { "value": "{color.action.danger.gradient.value}" }
+        },
+        "skeleton": {
+          "trough": { "value": "{color.action.skeleton.trough.value}" }
         }
       }
     }
