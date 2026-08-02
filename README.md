@@ -1,10 +1,9 @@
-# goshi — EPDS
+# Goshi
 
 A shared React component library and UI framework engineered to handle
 everything from simple consumer flows to complex enterprise dashboards.
 
-**EPDS** (this design system) ships two product modes from one shared
-foundation:
+Goshi ships two product modes from one shared foundation:
 
 - **Consumer** (`con`) — React Native, its own typography/components/patterns
 - **Enterprise** (`ent`) — Next.js, its own typography/components/patterns
@@ -28,25 +27,25 @@ if you want the short version.
 ```
 packages/
   foundations/
-    tokens/          @epds/foundations-tokens    primitive + semantic tokens (colour, spacing, sizing, radius, elevation, motion)
-    icons/            @epds/foundations-icons      shared icon token contract (size, stroke width, props)
+    tokens/          @goshi/foundations-tokens    primitive + semantic tokens (colour, spacing, sizing, radius, elevation, motion)
+    icons/            @goshi/foundations-icons      shared icon token contract (size, stroke width, props)
 
   consumer/
-    tokens/          @epds/consumer-tokens        con.* — aliases foundations + con typography
-    typography/      @epds/consumer-typography    con.typography.* (React Native)
-    react-native/    @epds/consumer-react-native  ThemeProvider, useTheme, Icon (wraps lucide-react-native)
+    tokens/          @goshi/consumer-tokens        con.* — aliases foundations + con typography
+    typography/      @goshi/consumer-typography    con.typography.* (React Native)
+    react-native/    @goshi/consumer-react-native  ThemeProvider, useTheme, Icon (wraps lucide-react-native)
     components/       reserved — not built yet
     patterns/          reserved — not built yet
 
   enterprise/
-    tokens/          @epds/enterprise-tokens      ent.* — aliases foundations + ent typography
-    typography/      @epds/enterprise-typography  ent.typography.* — empty placeholder, see its README
-    nextjs/          @epds/enterprise-nextjs      ThemeProvider, useTheme, Icon (wraps lucide-react)
+    tokens/          @goshi/enterprise-tokens      ent.* — aliases foundations + ent typography
+    typography/      @goshi/enterprise-typography  ent.typography.* — empty placeholder, see its README
+    nextjs/          @goshi/enterprise-nextjs      ThemeProvider, useTheme, Icon (wraps lucide-react)
     components/       reserved — not built yet
     patterns/          reserved — not built yet
 
 tooling/
-  style-dictionary-config/  @epds/style-dictionary-config   internal, unpublished — shared Style Dictionary build helper
+  style-dictionary-config/  @goshi/style-dictionary-config   internal, unpublished — shared Style Dictionary build helper
 
 docs/
   architecture/       ADRs — read these before making structural changes

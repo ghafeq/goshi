@@ -16,7 +16,7 @@ out as requirements this architecture must support).
 ## Decision
 
 **Style Dictionary v4** as the build pipeline, driven by a small shared
-package, `@epds/style-dictionary-config` (`tooling/style-dictionary-config`,
+package, `@goshi/style-dictionary-config` (`tooling/style-dictionary-config`,
 unpublished), used by every tokens package
 (`foundations/tokens`, `consumer/tokens`, `consumer/typography`,
 `enterprise/tokens`, `enterprise/typography`). It was factored out once a
@@ -69,8 +69,8 @@ sidesteps that ambiguity entirely.
 - **TypeScript** (`src/generated/<name>.ts`) — `export const <name> = {...} as const` plus a matching type, for RN inline styles and any TS/JS consumer.
 - **CSS custom properties** (`build/css/<name>.css`, via the built-in
   `css/variables` format, `outputReferences: true` so semantic tokens emit
-  `var(--epds-color-blue-500)` rather than a duplicated hex value) — for
-  Next.js, scoped by a `[data-epds-theme="light|dark"]` selector.
+  `var(--goshi-color-blue-500)` rather than a duplicated hex value) — for
+  Next.js, scoped by a `[data-goshi-theme="light|dark"]` selector.
 
 Both are generated, gitignored (`src/generated/`, `build/`), and rebuilt by
 `pnpm tokens:build` — never hand-edited.

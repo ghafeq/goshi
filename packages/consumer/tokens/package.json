@@ -1,7 +1,7 @@
 {
-  "name": "@epds/consumer-tokens",
+  "name": "@goshi/consumer-tokens",
   "version": "0.1.0",
-  "description": "Consumer (React Native) design tokens for EPDS — the con.* namespace, aliased from shared foundations plus con typography.",
+  "description": "Consumer (React Native) design tokens for Goshi — the con.* namespace, aliased from shared foundations plus con typography.",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -28,9 +28,9 @@
     "clean": "rm -rf build dist src/generated"
   },
   "dependencies": {
-    "@epds/consumer-typography": "workspace:*",
-    "@epds/foundations-tokens": "workspace:*",
-    "@epds/style-dictionary-config": "workspace:*"
+    "@goshi/consumer-typography": "workspace:*",
+    "@goshi/foundations-tokens": "workspace:*",
+    "@goshi/style-dictionary-config": "workspace:*"
   },
   "devDependencies": {
     "style-dictionary": "^4.1.4",

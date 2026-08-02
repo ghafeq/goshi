@@ -3,7 +3,7 @@ import path from 'node:path';
 import StyleDictionary from 'style-dictionary';
 
 /**
- * Every EPDS tokens package (foundations, consumer, enterprise) builds its
+ * Every Goshi tokens package (foundations, consumer, enterprise) builds its
  * source JSON through this same pipeline, so token naming/output shape stays
  * identical across the whole design system. See
  * docs/architecture/0003-token-pipeline-style-dictionary.md.
@@ -87,7 +87,7 @@ function ensureNestedModuleFormatRegistered() {
  * @param {string} [opts.cssBuildPath] - output dir for the generated `.css` file
  * @param {string} [opts.cssFile] - CSS filename; omit to skip CSS output entirely
  * @param {string} [opts.cssSelector] - CSS selector to scope the custom properties to
- * @param {string} [opts.prefix] - CSS custom property prefix (default `epds`)
+ * @param {string} [opts.prefix] - CSS custom property prefix (default `goshi`)
  */
 export async function buildTokenVariant({
   label,
@@ -99,7 +99,7 @@ export async function buildTokenVariant({
   cssBuildPath = 'build/css/',
   cssFile,
   cssSelector = ':root',
-  prefix = 'epds',
+  prefix = 'goshi',
 }) {
   ensureNestedModuleFormatRegistered();
 
@@ -144,7 +144,7 @@ export async function buildTokenVariant({
   // Style Dictionary silently skips *calling the format at all* (and so
   // never writes the file) when zero tokens match its filter — it doesn't
   // invoke `nested/module` with an empty `allTokens`, it just no-ops. That
-  // happens today for @epds/enterprise-typography, which has no tokens yet
+  // happens today for @goshi/enterprise-typography, which has no tokens yet
   // (see docs/architecture/0004-figma-sync-status.md). Detect that by
   // checking what actually landed on disk — not by re-deriving "would any
   // tokens have matched" from the StyleDictionary instance, whose top-level

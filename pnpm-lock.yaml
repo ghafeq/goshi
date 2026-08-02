@@ -35,10 +35,10 @@ importers:
 
   packages/consumer/react-native:
     dependencies:
-      '@epds/consumer-tokens':
+      '@goshi/consumer-tokens':
         specifier: workspace:*
         version: link:../tokens
-      '@epds/foundations-icons':
+      '@goshi/foundations-icons':
         specifier: workspace:*
         version: link:../../foundations/icons
     devDependencies:
@@ -63,13 +63,13 @@ importers:
 
   packages/consumer/tokens:
     dependencies:
-      '@epds/consumer-typography':
+      '@goshi/consumer-typography':
         specifier: workspace:*
         version: link:../typography
-      '@epds/foundations-tokens':
+      '@goshi/foundations-tokens':
         specifier: workspace:*
         version: link:../../foundations/tokens
-      '@epds/style-dictionary-config':
+      '@goshi/style-dictionary-config':
         specifier: workspace:*
         version: link:../../../tooling/style-dictionary-config
     devDependencies:
@@ -85,7 +85,7 @@ importers:
 
   packages/consumer/typography:
     dependencies:
-      '@epds/style-dictionary-config':
+      '@goshi/style-dictionary-config':
         specifier: workspace:*
         version: link:../../../tooling/style-dictionary-config
     devDependencies:
@@ -101,10 +101,10 @@ importers:
 
   packages/enterprise/nextjs:
     dependencies:
-      '@epds/enterprise-tokens':
+      '@goshi/enterprise-tokens':
         specifier: workspace:*
         version: link:../tokens
-      '@epds/foundations-icons':
+      '@goshi/foundations-icons':
         specifier: workspace:*
         version: link:../../foundations/icons
     devDependencies:
@@ -126,13 +126,13 @@ importers:
 
   packages/enterprise/tokens:
     dependencies:
-      '@epds/enterprise-typography':
+      '@goshi/enterprise-typography':
         specifier: workspace:*
         version: link:../typography
-      '@epds/foundations-tokens':
+      '@goshi/foundations-tokens':
         specifier: workspace:*
         version: link:../../foundations/tokens
-      '@epds/style-dictionary-config':
+      '@goshi/style-dictionary-config':
         specifier: workspace:*
         version: link:../../../tooling/style-dictionary-config
     devDependencies:
@@ -148,7 +148,7 @@ importers:
 
   packages/enterprise/typography:
     dependencies:
-      '@epds/style-dictionary-config':
+      '@goshi/style-dictionary-config':
         specifier: workspace:*
         version: link:../../../tooling/style-dictionary-config
     devDependencies:
@@ -173,7 +173,7 @@ importers:
 
   packages/foundations/tokens:
     dependencies:
-      '@epds/style-dictionary-config':
+      '@goshi/style-dictionary-config':
         specifier: workspace:*
         version: link:../../../tooling/style-dictionary-config
     devDependencies:

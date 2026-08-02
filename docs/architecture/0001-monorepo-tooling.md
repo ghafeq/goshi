@@ -8,7 +8,7 @@ Accepted (stage 1 — foundations).
 
 The `goshi` repository was essentially empty before this stage (a `README`,
 `LICENSE`, and a generic Node `.gitignore` — no existing app code, no
-package manager choice, no build tooling). EPDS needs to:
+package manager choice, no build tooling). Goshi needs to:
 
 - host many small, independently-versionable packages (foundations, and two
   platform-specific package families for Consumer/Enterprise)
@@ -37,7 +37,7 @@ a clean slate rather than adapting an incumbent choice.
   platform packages that alias them" an enforced ordering rather than a
   convention — see `turbo.json`'s `dependsOn: ["^build", ...]`.
 - **Changesets** for versioning (`.changeset/config.json`), so each package
-  (`@epds/foundations-tokens`, `@epds/consumer-tokens`, etc.) can cut
+  (`@goshi/foundations-tokens`, `@goshi/consumer-tokens`, etc.) can cut
   independent semver releases once there's something worth publishing.
 - **TypeScript per package** (`tsconfig.json` extending a shared
   `tsconfig.base.json`), each package builds its own `dist/` via `tsc -p`.
@@ -65,11 +65,11 @@ Spacing/sizing/radius/elevation/motion are **not** separate packages (unlike
 the brief's illustrative tree, which shows them as sibling folders under
 `foundations/`). They're pure data — Style Dictionary source files under
 `packages/foundations/tokens/src/primitive/*.json`, built by one pipeline
-into one `@epds/foundations-tokens` package. Six near-empty packages for six
+into one `@goshi/foundations-tokens` package. Six near-empty packages for six
 JSON files would add publishing/versioning overhead with no matching
 independent-release need — nobody will ever want `spacing` at a different
 version than `radius`. `icons` **is** its own package
-(`@epds/foundations-icons`) because it ships actual runtime logic and types
+(`@goshi/foundations-icons`) because it ships actual runtime logic and types
 (the icon prop contract), not just data.
 
 ## Consequences

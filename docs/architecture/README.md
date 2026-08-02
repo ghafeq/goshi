@@ -1,6 +1,6 @@
 # Architecture decisions
 
-Lightweight ADRs (Architecture Decision Records) for EPDS. Each one is
+Lightweight ADRs (Architecture Decision Records) for Goshi. Each one is
 Context → Decision → Consequences. New decisions get a new numbered file;
 existing ones aren't rewritten — if a decision changes, add a new ADR that
 supersedes it and say so.

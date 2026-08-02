@@ -1,6 +1,6 @@
 'use client';
 
-import { entByMode, type Ent, type ThemeMode } from '@epds/enterprise-tokens';
+import { entByMode, type Ent, type ThemeMode } from '@goshi/enterprise-tokens';
 import React, { createContext, useContext, useMemo } from 'react';
 
 interface ThemeContextValue {
@@ -22,8 +22,8 @@ export interface ThemeProviderProps {
 
 /**
  * Provides typed `ent.*` token access via `useTheme()`. This does **not**
- * set the `data-epds-theme` attribute that scopes the generated CSS custom
- * properties (`@epds/enterprise-tokens/css/ent-light.css` /
+ * set the `data-goshi-theme` attribute that scopes the generated CSS custom
+ * properties (`@goshi/enterprise-tokens/css/ent-light.css` /
  * `.../ent-dark.css`) — set that on `<html>`/`<body>` in your root layout,
  * server-side, so there's no flash of the wrong theme. See this package's
  * README for a copy-pasteable snippet.

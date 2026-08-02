@@ -1,4 +1,4 @@
-import { buildTokenVariant } from '@epds/style-dictionary-config';
+import { buildTokenVariant } from '@goshi/style-dictionary-config';
 
 const PRIMITIVE_SOURCE = ['src/primitive/**/*.json'];
 const isSemantic = (token) => token.filePath.includes('/semantic/');
@@ -17,7 +17,7 @@ await buildTokenVariant({
   filter: isSemantic,
   exportName: 'semanticLight',
   cssFile: 'semantic-light.css',
-  cssSelector: ':root, [data-epds-theme="light"]',
+  cssSelector: ':root, [data-goshi-theme="light"]',
 });
 
 await buildTokenVariant({
@@ -26,5 +26,5 @@ await buildTokenVariant({
   filter: isSemantic,
   exportName: 'semanticDark',
   cssFile: 'semantic-dark.css',
-  cssSelector: '[data-epds-theme="dark"]',
+  cssSelector: '[data-goshi-theme="dark"]',
 });

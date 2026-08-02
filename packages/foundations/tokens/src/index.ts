@@ -26,8 +26,8 @@ export const semanticByMode = {
  * token module is `as const`, so `typeof someLight` and `typeof someDark`
  * are each pinned to their own theme's literal values — without widening,
  * a type like `typeof someLight` can't accept `someDark` (or vice versa)
- * even though they're structurally identical. Used by `@epds/consumer-tokens`
- * and `@epds/enterprise-tokens` to type their light/dark-agnostic `Con` /
+ * even though they're structurally identical. Used by `@goshi/consumer-tokens`
+ * and `@goshi/enterprise-tokens` to type their light/dark-agnostic `Con` /
  * `Ent` exports.
  */
 export type DeepWiden<T> = T extends string

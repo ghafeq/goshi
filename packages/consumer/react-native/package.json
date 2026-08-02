@@ -1,7 +1,7 @@
 {
-  "name": "@epds/consumer-react-native",
+  "name": "@goshi/consumer-react-native",
   "version": "0.1.0",
-  "description": "React Native platform integration for EPDS Consumer — ThemeProvider, useTheme, and the Icon component (wraps lucide-react-native).",
+  "description": "React Native platform integration for Goshi Consumer — ThemeProvider, useTheme, and the Icon component (wraps lucide-react-native).",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -22,8 +22,8 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@epds/consumer-tokens": "workspace:*",
-    "@epds/foundations-icons": "workspace:*"
+    "@goshi/consumer-tokens": "workspace:*",
+    "@goshi/foundations-icons": "workspace:*"
   },
   "peerDependencies": {
     "lucide-react-native": ">=0.400.0",

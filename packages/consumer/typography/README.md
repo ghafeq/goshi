@@ -1,4 +1,4 @@
-# @epds/consumer-typography
+# @goshi/consumer-typography
 
 `con.typography.*` — the Consumer (React Native) expressive type scale:
 `display`, `heading`, `body`, `label`, `caption`, each resolving to an
@@ -19,12 +19,12 @@ shipping.
 ## Usage
 
 ```ts
-import { conTypography } from '@epds/consumer-typography';
+import { conTypography } from '@goshi/consumer-typography';
 import { Text } from 'react-native';
 
 <Text style={conTypography.heading.lg}>Title</Text>;
 ```
 
-`@epds/consumer-tokens` re-exports this under `con.typography` so app code
+`@goshi/consumer-tokens` re-exports this under `con.typography` so app code
 can use the single `con.*` namespace end to end
-(`con.typography.heading.lg`, per the EPDS naming convention).
+(`con.typography.heading.lg`, per the Goshi naming convention).

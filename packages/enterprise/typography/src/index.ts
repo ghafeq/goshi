@@ -5,7 +5,7 @@ export type { EntTypography } from './generated/entTypography.js';
 
 /**
  * Target shape for a resolved Enterprise text style, once real tokens land.
- * Deliberately NOT the same shape as `@epds/consumer-typography`'s
+ * Deliberately NOT the same shape as `@goshi/consumer-typography`'s
  * `ConTextStyle` — Enterprise targets Next.js/CSS, so units and property
  * names are expected to differ (e.g. rem-based `fontSize`, numeric CSS
  * `fontWeight`) once the real values are known. This is a documentation aid

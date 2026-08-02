@@ -1,7 +1,7 @@
 {
-  "name": "@epds/enterprise-nextjs",
+  "name": "@goshi/enterprise-nextjs",
   "version": "0.1.0",
-  "description": "Next.js platform integration for EPDS Enterprise — ThemeProvider, useTheme, and the Icon component (wraps lucide-react).",
+  "description": "Next.js platform integration for Goshi Enterprise — ThemeProvider, useTheme, and the Icon component (wraps lucide-react).",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -20,8 +20,8 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@epds/enterprise-tokens": "workspace:*",
-    "@epds/foundations-icons": "workspace:*"
+    "@goshi/enterprise-tokens": "workspace:*",
+    "@goshi/foundations-icons": "workspace:*"
   },
   "peerDependencies": {
     "lucide-react": ">=0.400.0",

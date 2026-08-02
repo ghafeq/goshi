@@ -1,4 +1,4 @@
-import { conByMode, type Con, type ThemeMode } from '@epds/consumer-tokens';
+import { conByMode, type Con, type ThemeMode } from '@goshi/consumer-tokens';
 import React, { createContext, useContext, useMemo } from 'react';
 import { useColorScheme } from 'react-native';
 

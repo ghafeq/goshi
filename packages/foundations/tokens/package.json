@@ -1,7 +1,7 @@
 {
-  "name": "@epds/foundations-tokens",
+  "name": "@goshi/foundations-tokens",
   "version": "0.1.0",
-  "description": "Shared primitive & semantic design tokens for EPDS — colour, spacing, sizing, radius, elevation, motion.",
+  "description": "Shared primitive & semantic design tokens for Goshi — colour, spacing, sizing, radius, elevation, motion.",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -29,7 +29,7 @@
     "clean": "rm -rf build dist src/generated"
   },
   "dependencies": {
-    "@epds/style-dictionary-config": "workspace:*"
+    "@goshi/style-dictionary-config": "workspace:*"
   },
   "devDependencies": {
     "style-dictionary": "^4.1.4",

@@ -3,7 +3,7 @@
   "changelog": "@changesets/cli/changelog",
   "commit": false,
   "fixed": [],
-  "linked": [["@epds/foundations-*"]],
+  "linked": [["@goshi/foundations-*"]],
   "access": "restricted",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",

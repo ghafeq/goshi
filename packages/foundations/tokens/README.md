@@ -1,8 +1,8 @@
-# @epds/foundations-tokens
+# @goshi/foundations-tokens
 
-Shared primitive and semantic design tokens for EPDS. Platform-agnostic — plain
+Shared primitive and semantic design tokens for Goshi. Platform-agnostic — plain
 TypeScript objects and CSS custom properties, no React or React Native
-dependency. Consumed by `@epds/consumer-tokens` and `@epds/enterprise-tokens`,
+dependency. Consumed by `@goshi/consumer-tokens` and `@goshi/enterprise-tokens`,
 which alias these into the `con.*` / `ent.*` namespaces.
 
 ## ⚠️ Colour values are placeholders

@@ -6,7 +6,7 @@ import {
   resolveIconSize,
   resolveIconStrokeWidth,
   type IconTokenProps,
-} from '@epds/foundations-icons';
+} from '@goshi/foundations-icons';
 import { icons } from 'lucide-react';
 import React from 'react';
 
@@ -18,8 +18,8 @@ export interface IconProps extends IconTokenProps {
 
 /**
  * Enterprise icon component — wraps `lucide-react`. Size, colour, stroke
- * width and `label` are controlled via the shared `@epds/foundations-icons`
- * tokens/props, matching `@epds/consumer-react-native`'s `Icon` API exactly.
+ * width and `label` are controlled via the shared `@goshi/foundations-icons`
+ * tokens/props, matching `@goshi/consumer-react-native`'s `Icon` API exactly.
  * `label` maps to `aria-label` internally.
  */
 export function Icon({ name, size = 'md', strokeWidth = 'regular', color, label }: IconProps) {

@@ -1,7 +1,7 @@
 {
-  "name": "@epds/foundations-icons",
+  "name": "@goshi/foundations-icons",
   "version": "0.1.0",
-  "description": "Shared icon token contract for EPDS (size, stroke width, colour) — platform implementations live in @epds/consumer-react-native and @epds/enterprise-nextjs.",
+  "description": "Shared icon token contract for Goshi (size, stroke width, colour) — platform implementations live in @goshi/consumer-react-native and @goshi/enterprise-nextjs.",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",

@@ -17,17 +17,17 @@ is shared, what's platform-owned, and where's the line."
 ### Dependency direction (one-way, no exceptions)
 
 ```
-@epds/foundations-tokens  @epds/foundations-icons
+@goshi/foundations-tokens  @goshi/foundations-icons
         ▲                          ▲
         │                          │
-@epds/consumer-tokens       @epds/enterprise-tokens
+@goshi/consumer-tokens       @goshi/enterprise-tokens
         ▲                          ▲
-@epds/consumer-react-native  @epds/enterprise-nextjs
+@goshi/consumer-react-native  @goshi/enterprise-nextjs
 ```
 
 `consumer/*` and `enterprise/*` packages depend **only** downward, on
-`foundations/*` — never on each other. `@epds/enterprise-tokens` does not
-depend on `@epds/consumer-tokens`, and vice versa, even for tests (an
+`foundations/*` — never on each other. `@goshi/enterprise-tokens` does not
+depend on `@goshi/consumer-tokens`, and vice versa, even for tests (an
 earlier draft of the enterprise-tokens test suite imported consumer-tokens
 for a "parity check" and that dependency was deliberately removed — see the
 test file's history). This is what makes "Enterprise gets its own
@@ -62,7 +62,7 @@ divergence in the alias files.
 | Icon *rendering* | No — same contract, different implementation | `consumer/react-native` wraps `lucide-react-native`; `enterprise/nextjs` wraps `lucide-react` |
 
 Icons are the interesting middle case: the **contract** (`IconTokenProps`,
-`iconSize`, `iconStrokeWidth`) is fully shared from `@epds/foundations-icons`
+`iconSize`, `iconStrokeWidth`) is fully shared from `@goshi/foundations-icons`
 so both platforms expose an identical `<Icon name="..." size="md"
 strokeWidth="regular" color={...} label="..." />` API — but the concrete
 `<Icon>` component is implemented separately per platform because bundling

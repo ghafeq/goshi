@@ -1,8 +1,8 @@
 {
-  "name": "@epds/style-dictionary-config",
+  "name": "@goshi/style-dictionary-config",
   "version": "0.1.0",
   "private": true,
-  "description": "Internal Style Dictionary build tooling shared by every EPDS tokens package. Not published.",
+  "description": "Internal Style Dictionary build tooling shared by every Goshi tokens package. Not published.",
   "license": "MIT",
   "type": "module",
   "main": "./src/index.mjs",

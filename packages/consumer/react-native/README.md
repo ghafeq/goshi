@@ -1,9 +1,9 @@
-# @epds/consumer-react-native
+# @goshi/consumer-react-native
 
-React Native platform integration for EPDS Consumer.
+React Native platform integration for Goshi Consumer.
 
 ```tsx
-import { ThemeProvider, useTheme, Icon } from '@epds/consumer-react-native';
+import { ThemeProvider, useTheme, Icon } from '@goshi/consumer-react-native';
 
 function App() {
   return (
@@ -27,9 +27,9 @@ function Screen() {
 - `ThemeProvider` / `useTheme` — resolves `con.*` for the current colour
   scheme (`useColorScheme()`), or a forced `mode` prop for an in-app toggle.
 - `Icon` — wraps `lucide-react-native`, using
-  [`@epds/foundations-icons`](../../foundations/icons) tokens for `size` and
+  [`@goshi/foundations-icons`](../../foundations/icons) tokens for `size` and
   `strokeWidth` so its prop API is identical to
-  [`@epds/enterprise-nextjs`](../../enterprise/nextjs)'s `Icon`.
+  [`@goshi/enterprise-nextjs`](../../enterprise/nextjs)'s `Icon`.
 
 ## Not yet covered
 

@@ -1,4 +1,4 @@
-import { buildTokenVariant } from '@epds/style-dictionary-config';
+import { buildTokenVariant } from '@goshi/style-dictionary-config';
 
 const FOUNDATION_PRIMITIVE = ['../../foundations/tokens/src/primitive/**/*.json'];
 const ALIAS_SCALE = ['src/alias.scale.json'];
@@ -16,7 +16,7 @@ await buildTokenVariant({
   exportName: 'entLight',
   stripPrefix: ['ent'],
   cssFile: 'ent-light.css',
-  cssSelector: ':root, [data-epds-theme="light"]',
+  cssSelector: ':root, [data-goshi-theme="light"]',
 });
 
 await buildTokenVariant({
@@ -31,5 +31,5 @@ await buildTokenVariant({
   exportName: 'entDark',
   stripPrefix: ['ent'],
   cssFile: 'ent-dark.css',
-  cssSelector: '[data-epds-theme="dark"]',
+  cssSelector: '[data-goshi-theme="dark"]',
 });

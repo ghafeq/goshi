@@ -1,4 +1,4 @@
-import { buildTokenVariant } from '@epds/style-dictionary-config';
+import { buildTokenVariant } from '@goshi/style-dictionary-config';
 
 await buildTokenVariant({
   label: 'con typography',

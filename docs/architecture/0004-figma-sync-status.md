@@ -10,7 +10,7 @@ The brief names three Figma files as the source of truth for this stage:
 
 - Colour Library — https://www.figma.com/design/BOyUIrMprCdEVlZg3ySkkD/1.-Foundations--Colour-Library
 - Consumer Type Sets (Expressive) — https://www.figma.com/design/5tPTGd8uF7eqODTSun5FJZ/2.2-Foundations--Type-Sets--Expressive-
-- (Enterprise typography: no Figma file yet — left empty by design, see `@epds/enterprise-typography`'s README)
+- (Enterprise typography: no Figma file yet — left empty by design, see `@goshi/enterprise-typography`'s README)
 
 The Figma MCP connector available to this environment requires an
 **interactive OAuth grant**. The session this foundation was built in is
@@ -41,7 +41,7 @@ entire foundation stage on Figma access:
   `elevation`, `motion`) are **not** placeholders — no Figma file was named
   for them, and a standard 4px-grid baseline scale is safe to build against
   and refine later without a naming/shape change.
-- `@epds/enterprise-typography` is left genuinely empty (not a placeholder
+- `@goshi/enterprise-typography` is left genuinely empty (not a placeholder
   scale, not a copy of Consumer's) per the brief's explicit instruction —
   see that package's README for the exact reasoning.
 
@@ -67,7 +67,7 @@ entire foundation stage on Figma access:
    (a background token and its intended foreground token) but the actual
    contrast ratios are unverified.
 6. For Enterprise typography, there's no "replace" step yet — see
-   `@epds/enterprise-typography`'s README for adding the first real values
+   `@goshi/enterprise-typography`'s README for adding the first real values
    once that Figma file exists.
 
 ## Consequences

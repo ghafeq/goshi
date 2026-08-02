@@ -1,7 +1,7 @@
 {
-  "name": "@epds/consumer-typography",
+  "name": "@goshi/consumer-typography",
   "version": "0.1.0",
-  "description": "Consumer (React Native) typography tokens for EPDS — con.typography.*.",
+  "description": "Consumer (React Native) typography tokens for Goshi — con.typography.*.",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
@@ -22,7 +22,7 @@
     "clean": "rm -rf dist src/generated"
   },
   "dependencies": {
-    "@epds/style-dictionary-config": "workspace:*"
+    "@goshi/style-dictionary-config": "workspace:*"
   },
   "devDependencies": {
     "style-dictionary": "^4.1.4",
