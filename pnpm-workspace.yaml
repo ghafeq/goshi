@@ -1,0 +1,10 @@
+packages:
+  # Leaf packages only — the mode/category folders themselves
+  # (foundations, consumer, enterprise) are organisational, not packages.
+  - "packages/*/*"
+  - "tooling/*"
+allowBuilds:
+  '@bundled-es-modules/glob': true
+  esbuild: true
+  sharp: true
+  style-dictionary: true

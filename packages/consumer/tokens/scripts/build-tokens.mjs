@@ -1,0 +1,35 @@
+import { buildTokenVariant } from '@epds/style-dictionary-config';
+
+const FOUNDATION_PRIMITIVE = ['../../foundations/tokens/src/primitive/**/*.json'];
+const ALIAS_SCALE = ['src/alias.scale.json'];
+const isCon = (token) => token.path[0] === 'con';
+
+await buildTokenVariant({
+  label: 'con (light)',
+  source: [
+    ...FOUNDATION_PRIMITIVE,
+    '../../foundations/tokens/src/semantic/color.light.json',
+    'src/alias.color.json',
+    ...ALIAS_SCALE,
+  ],
+  filter: isCon,
+  exportName: 'conLight',
+  stripPrefix: ['con'],
+  cssFile: 'con-light.css',
+  cssSelector: ':root, [data-epds-theme="light"]',
+});
+
+await buildTokenVariant({
+  label: 'con (dark)',
+  source: [
+    ...FOUNDATION_PRIMITIVE,
+    '../../foundations/tokens/src/semantic/color.dark.json',
+    'src/alias.color.json',
+    ...ALIAS_SCALE,
+  ],
+  filter: isCon,
+  exportName: 'conDark',
+  stripPrefix: ['con'],
+  cssFile: 'con-dark.css',
+  cssSelector: '[data-epds-theme="dark"]',
+});

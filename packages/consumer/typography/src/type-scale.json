@@ -1,0 +1,34 @@
+{
+  "con": {
+    "typography": {
+      "fontFamily": {
+        "base": { "value": "Inter", "comment": "PLACEHOLDER — pending export from Figma Type Sets (Expressive) library" }
+      },
+      "display": {
+        "lg": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 57, "lineHeight": 64, "fontWeight": "700", "letterSpacing": -0.25 }, "comment": "PLACEHOLDER — pending Figma sync" },
+        "md": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 45, "lineHeight": 52, "fontWeight": "700", "letterSpacing": 0 }, "comment": "PLACEHOLDER — pending Figma sync" },
+        "sm": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 36, "lineHeight": 44, "fontWeight": "700", "letterSpacing": 0 }, "comment": "PLACEHOLDER — pending Figma sync" }
+      },
+      "heading": {
+        "xl": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 32, "lineHeight": 40, "fontWeight": "700", "letterSpacing": 0 }, "comment": "PLACEHOLDER — pending Figma sync" },
+        "lg": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 28, "lineHeight": 36, "fontWeight": "700", "letterSpacing": 0 }, "comment": "PLACEHOLDER — pending Figma sync" },
+        "md": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 24, "lineHeight": 32, "fontWeight": "600", "letterSpacing": 0 }, "comment": "PLACEHOLDER — pending Figma sync" },
+        "sm": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 20, "lineHeight": 28, "fontWeight": "600", "letterSpacing": 0 }, "comment": "PLACEHOLDER — pending Figma sync" },
+        "xs": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 18, "lineHeight": 24, "fontWeight": "600", "letterSpacing": 0 }, "comment": "PLACEHOLDER — pending Figma sync" }
+      },
+      "body": {
+        "lg": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 17, "lineHeight": 24, "fontWeight": "400", "letterSpacing": 0 }, "comment": "PLACEHOLDER — pending Figma sync" },
+        "md": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 15, "lineHeight": 22, "fontWeight": "400", "letterSpacing": 0 }, "comment": "PLACEHOLDER — pending Figma sync" },
+        "sm": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 13, "lineHeight": 18, "fontWeight": "400", "letterSpacing": 0 }, "comment": "PLACEHOLDER — pending Figma sync" }
+      },
+      "label": {
+        "lg": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 15, "lineHeight": 20, "fontWeight": "500", "letterSpacing": 0.1 }, "comment": "PLACEHOLDER — pending Figma sync" },
+        "md": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 13, "lineHeight": 16, "fontWeight": "500", "letterSpacing": 0.1 }, "comment": "PLACEHOLDER — pending Figma sync" },
+        "sm": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 11, "lineHeight": 14, "fontWeight": "500", "letterSpacing": 0.2 }, "comment": "PLACEHOLDER — pending Figma sync" }
+      },
+      "caption": {
+        "md": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 12, "lineHeight": 16, "fontWeight": "400", "letterSpacing": 0.2 }, "comment": "PLACEHOLDER — pending Figma sync" }
+      }
+    }
+  }
+}

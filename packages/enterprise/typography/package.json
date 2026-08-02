@@ -1,0 +1,32 @@
+{
+  "name": "@epds/enterprise-typography",
+  "version": "0.1.0",
+  "description": "Enterprise (Next.js) typography tokens for EPDS — ent.typography.*. Placeholder: empty until the Enterprise Figma type system is available.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "src"],
+  "scripts": {
+    "tokens:build": "node scripts/build-tokens.mjs",
+    "build": "pnpm tokens:build && tsc -p tsconfig.json",
+    "typecheck": "pnpm tokens:build && tsc -p tsconfig.json --noEmit",
+    "lint": "eslint src scripts --ext .ts,.mjs",
+    "test": "vitest run",
+    "clean": "rm -rf dist src/generated"
+  },
+  "dependencies": {
+    "@epds/style-dictionary-config": "workspace:*"
+  },
+  "devDependencies": {
+    "style-dictionary": "^4.1.4",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "@epds/consumer-react-native",
+  "version": "0.1.0",
+  "description": "React Native platform integration for EPDS Consumer — ThemeProvider, useTheme, and the Icon component (wraps lucide-react-native).",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "react-native": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "react-native": "./src/index.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "src"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint src --ext .ts,.tsx",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@epds/consumer-tokens": "workspace:*",
+    "@epds/foundations-icons": "workspace:*"
+  },
+  "peerDependencies": {
+    "lucide-react-native": ">=0.400.0",
+    "react": ">=18.2.0",
+    "react-native": ">=0.73.0",
+    "react-native-svg": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "lucide-react-native": "^0.460.0",
+    "react": "^18.3.1",
+    "react-native": "^0.76.3",
+    "react-native-svg": "^15.8.0",
+    "typescript": "^5.6.3"
+  }
+}

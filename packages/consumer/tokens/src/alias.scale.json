@@ -1,0 +1,76 @@
+{
+  "con": {
+    "spacing": {
+      "0":  { "value": "{spacing.0.value}" },
+      "2":  { "value": "{spacing.2.value}" },
+      "4":  { "value": "{spacing.4.value}" },
+      "6":  { "value": "{spacing.6.value}" },
+      "8":  { "value": "{spacing.8.value}" },
+      "10": { "value": "{spacing.10.value}" },
+      "12": { "value": "{spacing.12.value}" },
+      "16": { "value": "{spacing.16.value}" },
+      "20": { "value": "{spacing.20.value}" },
+      "24": { "value": "{spacing.24.value}" },
+      "32": { "value": "{spacing.32.value}" },
+      "40": { "value": "{spacing.40.value}" },
+      "48": { "value": "{spacing.48.value}" },
+      "64": { "value": "{spacing.64.value}" },
+      "80": { "value": "{spacing.80.value}" },
+      "96": { "value": "{spacing.96.value}" },
+      "128": { "value": "{spacing.128.value}" }
+    },
+    "sizing": {
+      "16":  { "value": "{sizing.16.value}" },
+      "20":  { "value": "{sizing.20.value}" },
+      "24":  { "value": "{sizing.24.value}" },
+      "28":  { "value": "{sizing.28.value}" },
+      "32":  { "value": "{sizing.32.value}" },
+      "36":  { "value": "{sizing.36.value}" },
+      "40":  { "value": "{sizing.40.value}" },
+      "44":  { "value": "{sizing.44.value}" },
+      "48":  { "value": "{sizing.48.value}" },
+      "56":  { "value": "{sizing.56.value}" },
+      "64":  { "value": "{sizing.64.value}" },
+      "80":  { "value": "{sizing.80.value}" },
+      "96":  { "value": "{sizing.96.value}" },
+      "128": { "value": "{sizing.128.value}" },
+      "160": { "value": "{sizing.160.value}" },
+      "192": { "value": "{sizing.192.value}" },
+      "256": { "value": "{sizing.256.value}" }
+    },
+    "radius": {
+      "none": { "value": "{radius.none.value}" },
+      "xs":   { "value": "{radius.xs.value}" },
+      "sm":   { "value": "{radius.sm.value}" },
+      "md":   { "value": "{radius.md.value}" },
+      "lg":   { "value": "{radius.lg.value}" },
+      "xl":   { "value": "{radius.xl.value}" },
+      "2xl":  { "value": "{radius.2xl.value}" },
+      "full": { "value": "{radius.full.value}" }
+    },
+    "elevation": {
+      "0": { "value": "{elevation.0.value}" },
+      "1": { "value": "{elevation.1.value}" },
+      "2": { "value": "{elevation.2.value}" },
+      "3": { "value": "{elevation.3.value}" },
+      "4": { "value": "{elevation.4.value}" },
+      "5": { "value": "{elevation.5.value}" }
+    },
+    "motion": {
+      "duration": {
+        "instant":  { "value": "{motion.duration.instant.value}" },
+        "fast":     { "value": "{motion.duration.fast.value}" },
+        "base":     { "value": "{motion.duration.base.value}" },
+        "moderate": { "value": "{motion.duration.moderate.value}" },
+        "slow":     { "value": "{motion.duration.slow.value}" },
+        "slower":   { "value": "{motion.duration.slower.value}" }
+      },
+      "easing": {
+        "linear":     { "value": "{motion.easing.linear.value}" },
+        "standard":   { "value": "{motion.easing.standard.value}" },
+        "decelerate": { "value": "{motion.easing.decelerate.value}" },
+        "accelerate": { "value": "{motion.easing.accelerate.value}" }
+      }
+    }
+  }
+}

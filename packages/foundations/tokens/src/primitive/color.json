@@ -1,0 +1,71 @@
+{
+  "color": {
+    "white": { "value": "#FFFFFF" },
+    "black": { "value": "#000000" },
+    "neutral": {
+      "50":  { "value": "#F7F8F9", "comment": "PLACEHOLDER — pending export from Figma Colour Library" },
+      "100": { "value": "#EEF0F2", "comment": "PLACEHOLDER — pending export from Figma Colour Library" },
+      "200": { "value": "#DDE1E6", "comment": "PLACEHOLDER — pending export from Figma Colour Library" },
+      "300": { "value": "#C2C9D1", "comment": "PLACEHOLDER — pending export from Figma Colour Library" },
+      "400": { "value": "#9AA4B2", "comment": "PLACEHOLDER — pending export from Figma Colour Library" },
+      "500": { "value": "#717D8A", "comment": "PLACEHOLDER — pending export from Figma Colour Library" },
+      "600": { "value": "#545F6B", "comment": "PLACEHOLDER — pending export from Figma Colour Library" },
+      "700": { "value": "#3D4650", "comment": "PLACEHOLDER — pending export from Figma Colour Library" },
+      "800": { "value": "#282E35", "comment": "PLACEHOLDER — pending export from Figma Colour Library" },
+      "900": { "value": "#171B20", "comment": "PLACEHOLDER — pending export from Figma Colour Library" },
+      "950": { "value": "#0B0D10", "comment": "PLACEHOLDER — pending export from Figma Colour Library" }
+    },
+    "blue": {
+      "50":  { "value": "#EEF4FF", "comment": "PLACEHOLDER — brand primary ramp, pending Figma export" },
+      "100": { "value": "#D9E6FF", "comment": "PLACEHOLDER — brand primary ramp, pending Figma export" },
+      "200": { "value": "#B3CCFF", "comment": "PLACEHOLDER — brand primary ramp, pending Figma export" },
+      "300": { "value": "#80AAFF", "comment": "PLACEHOLDER — brand primary ramp, pending Figma export" },
+      "400": { "value": "#4D87FF", "comment": "PLACEHOLDER — brand primary ramp, pending Figma export" },
+      "500": { "value": "#1F5EFF", "comment": "PLACEHOLDER — brand primary ramp, pending Figma export" },
+      "600": { "value": "#1348D6", "comment": "PLACEHOLDER — brand primary ramp, pending Figma export" },
+      "700": { "value": "#0E36A3", "comment": "PLACEHOLDER — brand primary ramp, pending Figma export" },
+      "800": { "value": "#0A2670", "comment": "PLACEHOLDER — brand primary ramp, pending Figma export" },
+      "900": { "value": "#071A4D", "comment": "PLACEHOLDER — brand primary ramp, pending Figma export" },
+      "950": { "value": "#040F2E", "comment": "PLACEHOLDER — brand primary ramp, pending Figma export" }
+    },
+    "green": {
+      "50":  { "value": "#EAFBF1", "comment": "PLACEHOLDER — success ramp, pending Figma export" },
+      "100": { "value": "#CFF5DE", "comment": "PLACEHOLDER — success ramp, pending Figma export" },
+      "200": { "value": "#9EEABE", "comment": "PLACEHOLDER — success ramp, pending Figma export" },
+      "300": { "value": "#66D89A", "comment": "PLACEHOLDER — success ramp, pending Figma export" },
+      "400": { "value": "#34C078", "comment": "PLACEHOLDER — success ramp, pending Figma export" },
+      "500": { "value": "#189D5C", "comment": "PLACEHOLDER — success ramp, pending Figma export" },
+      "600": { "value": "#117D49", "comment": "PLACEHOLDER — success ramp, pending Figma export" },
+      "700": { "value": "#0E5F38", "comment": "PLACEHOLDER — success ramp, pending Figma export" },
+      "800": { "value": "#0B4529", "comment": "PLACEHOLDER — success ramp, pending Figma export" },
+      "900": { "value": "#082F1C", "comment": "PLACEHOLDER — success ramp, pending Figma export" },
+      "950": { "value": "#051C10", "comment": "PLACEHOLDER — success ramp, pending Figma export" }
+    },
+    "amber": {
+      "50":  { "value": "#FFF8E8", "comment": "PLACEHOLDER — warning ramp, pending Figma export" },
+      "100": { "value": "#FFEBBE", "comment": "PLACEHOLDER — warning ramp, pending Figma export" },
+      "200": { "value": "#FFD782", "comment": "PLACEHOLDER — warning ramp, pending Figma export" },
+      "300": { "value": "#FFBE42", "comment": "PLACEHOLDER — warning ramp, pending Figma export" },
+      "400": { "value": "#F5A312", "comment": "PLACEHOLDER — warning ramp, pending Figma export" },
+      "500": { "value": "#D5850A", "comment": "PLACEHOLDER — warning ramp, pending Figma export" },
+      "600": { "value": "#AD6707", "comment": "PLACEHOLDER — warning ramp, pending Figma export" },
+      "700": { "value": "#844E08", "comment": "PLACEHOLDER — warning ramp, pending Figma export" },
+      "800": { "value": "#5C370A", "comment": "PLACEHOLDER — warning ramp, pending Figma export" },
+      "900": { "value": "#3D2409", "comment": "PLACEHOLDER — warning ramp, pending Figma export" },
+      "950": { "value": "#241505", "comment": "PLACEHOLDER — warning ramp, pending Figma export" }
+    },
+    "red": {
+      "50":  { "value": "#FFEFEE", "comment": "PLACEHOLDER — danger ramp, pending Figma export" },
+      "100": { "value": "#FFD9D6", "comment": "PLACEHOLDER — danger ramp, pending Figma export" },
+      "200": { "value": "#FFB6B0", "comment": "PLACEHOLDER — danger ramp, pending Figma export" },
+      "300": { "value": "#FF8880", "comment": "PLACEHOLDER — danger ramp, pending Figma export" },
+      "400": { "value": "#F95A50", "comment": "PLACEHOLDER — danger ramp, pending Figma export" },
+      "500": { "value": "#E22E23", "comment": "PLACEHOLDER — danger ramp, pending Figma export" },
+      "600": { "value": "#BD1E16", "comment": "PLACEHOLDER — danger ramp, pending Figma export" },
+      "700": { "value": "#921813", "comment": "PLACEHOLDER — danger ramp, pending Figma export" },
+      "800": { "value": "#671410", "comment": "PLACEHOLDER — danger ramp, pending Figma export" },
+      "900": { "value": "#43110E", "comment": "PLACEHOLDER — danger ramp, pending Figma export" },
+      "950": { "value": "#280B09", "comment": "PLACEHOLDER — danger ramp, pending Figma export" }
+    }
+  }
+}

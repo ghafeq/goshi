@@ -1,0 +1,39 @@
+{
+  "name": "@epds/foundations-tokens",
+  "version": "0.1.0",
+  "description": "Shared primitive & semantic design tokens for EPDS — colour, spacing, sizing, radius, elevation, motion.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./css/primitives.css": "./build/css/primitives.css",
+    "./css/semantic-light.css": "./build/css/semantic-light.css",
+    "./css/semantic-dark.css": "./build/css/semantic-dark.css"
+  },
+  "files": [
+    "dist",
+    "build/css",
+    "src"
+  ],
+  "scripts": {
+    "tokens:build": "node scripts/build-tokens.mjs",
+    "build": "pnpm tokens:build && tsc -p tsconfig.json",
+    "typecheck": "pnpm tokens:build && tsc -p tsconfig.json --noEmit",
+    "lint": "eslint src scripts --ext .ts,.mjs",
+    "test": "vitest run",
+    "clean": "rm -rf build dist src/generated"
+  },
+  "dependencies": {
+    "@epds/style-dictionary-config": "workspace:*"
+  },
+  "devDependencies": {
+    "style-dictionary": "^4.1.4",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  }
+}
