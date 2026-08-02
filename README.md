@@ -57,7 +57,7 @@ Every leaf package under `packages/*/*` is independently versioned
 
 ## Getting started
 
-Requires Node ≥18.18 and [Corepack](https://nodejs.org/api/corepack.html)
+Requires Node ≥22.13 and [Corepack](https://nodejs.org/api/corepack.html)
 (`corepack enable`) so the pinned pnpm version resolves automatically.
 
 ```bash

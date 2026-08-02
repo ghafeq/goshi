@@ -74,8 +74,10 @@ version than `radius`. `icons` **is** its own package
 
 ## Consequences
 
-- Contributors need Node ≥18.18 and Corepack enabled (`corepack enable`) —
-  documented in the root README.
+- Contributors need Node ≥22.13 and Corepack enabled (`corepack enable`) —
+  documented in the root README. That floor comes from `pnpm@11.18.0` itself
+  (pinned in `packageManager`), which uses the `node:sqlite` built-in and
+  refuses to run below Node 22.13 — not from anything in this codebase.
 - `pnpm install` at the repo root installs and links everything; no
   per-package installs.
 - Adding a new package means adding it under `packages/<mode>/<name>` (or
