@@ -2,7 +2,8 @@
   "con": {
     "typography": {
       "fontFamily": {
-        "base": { "value": "Inter", "comment": "Confirmed from Figma Goshi Design System (Consumer) — Buttons component variable `copy`" }
+        "base": { "value": "Inter", "comment": "Confirmed from Figma Goshi Design System (Consumer) — Buttons component variable `copy`" },
+        "headline": { "value": "Plus Jakarta Sans", "comment": "Confirmed from Figma Goshi Design System (Consumer) — Cards & Tiles component variable `headline`" }
       },
       "display": {
         "lg": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 57, "lineHeight": 64, "fontWeight": "700", "letterSpacing": -0.25 }, "comment": "PLACEHOLDER — pending Figma sync" },
@@ -32,6 +33,15 @@
       "button": {
         "lg": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 16, "lineHeight": 24, "fontWeight": "600", "letterSpacing": 0 }, "comment": "Confirmed from Figma Goshi Design System (Consumer) — Buttons component, style `Expressive/button-01` (Size=Normal)" },
         "sm": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 14, "lineHeight": 22, "fontWeight": "600", "letterSpacing": 0 }, "comment": "Confirmed from Figma Goshi Design System (Consumer) — Buttons component, style `Expressive/button-02` (Size=Small/Bare)" }
+      },
+      "expressive": {
+        "heading01": { "value": { "fontFamily": "{con.typography.fontFamily.headline.value}", "fontSize": 22, "lineHeight": 26, "fontWeight": "700", "letterSpacing": 0 }, "comment": "Confirmed from Figma — Cards & Tiles, style `Expressive/heading-01`. This namespace mirrors Figma's own text-style names 1:1 (Expressive/heading-01, /body-02, ...) rather than the display/heading/body/label scale above, which was invented before Figma access and uses a different naming convention — see docs/architecture/0007-figma-consumer-sync-cards-tiles-tag.md." },
+        "heading02": { "value": { "fontFamily": "{con.typography.fontFamily.headline.value}", "fontSize": 18, "lineHeight": 22, "fontWeight": "700", "letterSpacing": 0 }, "comment": "Confirmed from Figma — Cards & Tiles, style `Expressive/heading-02`" },
+        "body01": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 16, "lineHeight": 24, "fontWeight": "400", "letterSpacing": 0 }, "comment": "Confirmed from Figma — Cards & Tiles, style `Expressive/body-01`" },
+        "body02": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 14, "lineHeight": 22, "fontWeight": "400", "letterSpacing": 0 }, "comment": "Confirmed from Figma — Cards & Tiles, style `Expressive/body-02`" },
+        "bodyCompact02": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 14, "lineHeight": 18, "fontWeight": "400", "letterSpacing": 0 }, "comment": "Confirmed from Figma — Cards & Tiles, style `Expressive/body-compact-02`" },
+        "label01": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 14, "lineHeight": 20, "fontWeight": "500", "letterSpacing": 0.16 }, "comment": "Confirmed from Figma — Tag component, style `Expressive/label-01`" },
+        "labelCompact": { "value": { "fontFamily": "{con.typography.fontFamily.base.value}", "fontSize": 12, "lineHeight": 16, "fontWeight": "500", "letterSpacing": 0.16 }, "comment": "Confirmed from Figma — Tag component, style `Expressive/label-compact`" }
       }
     }
   }

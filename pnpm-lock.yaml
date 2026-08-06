@@ -70,6 +70,34 @@ importers:
         specifier: ^2.1.5
         version: 2.1.9(@types/node@26.1.2)(supports-color@8.1.1)(terser@5.49.0)
 
+  packages/consumer/components/card:
+    dependencies:
+      '@goshi/consumer-components-shimmer':
+        specifier: workspace:*
+        version: link:../shimmer
+      '@goshi/consumer-react-native':
+        specifier: workspace:*
+        version: link:../../react-native
+      '@goshi/consumer-tokens':
+        specifier: workspace:*
+        version: link:../../tokens
+    devDependencies:
+      '@types/react':
+        specifier: ^18.3.12
+        version: 18.3.31
+      react:
+        specifier: ^18.3.1
+        version: 18.3.1
+      react-native:
+        specifier: ^0.76.3
+        version: 0.76.9(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1)
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.5
+        version: 2.1.9(@types/node@26.1.2)(supports-color@8.1.1)(terser@5.49.0)
+
   packages/consumer/components/loader:
     dependencies:
       '@goshi/foundations-icons':
@@ -119,6 +147,68 @@ importers:
       react-native-reanimated:
         specifier: ^3.16.1
         version: 3.19.5(@babel/core@7.29.7(supports-color@8.1.1))(react-native@0.76.9(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1))(react@18.3.1)(supports-color@8.1.1)
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.5
+        version: 2.1.9(@types/node@26.1.2)(supports-color@8.1.1)(terser@5.49.0)
+
+  packages/consumer/components/tag:
+    dependencies:
+      '@goshi/consumer-components-shimmer':
+        specifier: workspace:*
+        version: link:../shimmer
+      '@goshi/consumer-react-native':
+        specifier: workspace:*
+        version: link:../../react-native
+      '@goshi/consumer-tokens':
+        specifier: workspace:*
+        version: link:../../tokens
+      '@goshi/foundations-tokens':
+        specifier: workspace:*
+        version: link:../../../foundations/tokens
+    devDependencies:
+      '@types/react':
+        specifier: ^18.3.12
+        version: 18.3.31
+      react:
+        specifier: ^18.3.1
+        version: 18.3.1
+      react-native:
+        specifier: ^0.76.3
+        version: 0.76.9(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1)
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.5
+        version: 2.1.9(@types/node@26.1.2)(supports-color@8.1.1)(terser@5.49.0)
+
+  packages/consumer/components/tile:
+    dependencies:
+      '@goshi/consumer-components-shimmer':
+        specifier: workspace:*
+        version: link:../shimmer
+      '@goshi/consumer-react-native':
+        specifier: workspace:*
+        version: link:../../react-native
+      '@goshi/consumer-tokens':
+        specifier: workspace:*
+        version: link:../../tokens
+      '@goshi/foundations-tokens':
+        specifier: workspace:*
+        version: link:../../../foundations/tokens
+    devDependencies:
+      '@types/react':
+        specifier: ^18.3.12
+        version: 18.3.31
+      react:
+        specifier: ^18.3.1
+        version: 18.3.1
+      react-native:
+        specifier: ^0.76.3
+        version: 0.76.9(@babel/core@7.29.7(supports-color@8.1.1))(@babel/preset-env@7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@types/react@18.3.31)(react@18.3.1)(supports-color@8.1.1)
       typescript:
         specifier: ^5.6.3
         version: 5.9.3

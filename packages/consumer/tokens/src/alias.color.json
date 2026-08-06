@@ -10,7 +10,12 @@
       },
       "surface": {
         "raised":  { "value": "{color.surface.raised.value}" },
-        "overlay": { "value": "{color.surface.overlay.value}" }
+        "overlay": { "value": "{color.surface.overlay.value}" },
+        "layer1": {
+          "surface": { "value": "{color.surface.layer1.surface.value}" },
+          "inline":  { "value": "{color.surface.layer1.inline.value}" },
+          "overlay": { "value": "{color.surface.layer1.overlay.value}" }
+        }
       },
       "text": {
         "primary":   { "value": "{color.text.primary.value}" },
@@ -28,11 +33,21 @@
         },
         "feedback": {
           "inverse": {
-            "danger": {
+            "danger":  {
               "strong": { "value": "{color.text.feedback.inverse.danger.strong.value}" },
               "low":    { "value": "{color.text.feedback.inverse.danger.low.value}" }
-            }
+            },
+            "success": { "strong": { "value": "{color.text.feedback.inverse.success.strong.value}" } },
+            "info":    { "strong": { "value": "{color.text.feedback.inverse.info.strong.value}" } },
+            "warning": { "strong": { "value": "{color.text.feedback.inverse.warning.strong.value}" } }
           }
+        },
+        "tag": {
+          "positive": { "value": "{color.text.tag.positive.value}" },
+          "critical": { "value": "{color.text.tag.critical.value}" },
+          "neutral":  { "value": "{color.text.tag.neutral.value}" },
+          "pending":  { "value": "{color.text.tag.pending.value}" },
+          "muted":    { "value": "{color.text.tag.muted.value}" }
         }
       },
       "border": {
@@ -90,9 +105,23 @@
           "subtle": { "value": "{color.action.danger.subtle.value}" },
           "gradient": { "value": "{color.action.danger.gradient.value}" }
         },
+        "success": { "solid": { "value": "{color.action.success.solid.value}" }, "subtle": { "value": "{color.action.success.subtle.value}" } },
+        "info":    { "solid": { "value": "{color.action.info.solid.value}" },    "subtle": { "value": "{color.action.info.subtle.value}" } },
+        "warning": { "solid": { "value": "{color.action.warning.solid.value}" }, "subtle": { "value": "{color.action.warning.subtle.value}" } },
+        "entry": {
+          "backgroundDisabled": { "value": "{color.action.entry.backgroundDisabled.value}" },
+          "borderFocused":      { "value": "{color.action.entry.borderFocused.value}" }
+        },
         "skeleton": {
           "trough": { "value": "{color.action.skeleton.trough.value}" }
         }
+      },
+      "tag": {
+        "positive": { "solid": { "value": "{color.tag.positive.solid.value}" }, "subtle": { "value": "{color.tag.positive.subtle.value}" } },
+        "critical": { "solid": { "value": "{color.tag.critical.solid.value}" }, "subtle": { "value": "{color.tag.critical.subtle.value}" } },
+        "neutral":  { "solid": { "value": "{color.tag.neutral.solid.value}" },  "subtle": { "value": "{color.tag.neutral.subtle.value}" } },
+        "pending":  { "solid": { "value": "{color.tag.pending.solid.value}" },  "subtle": { "value": "{color.tag.pending.subtle.value}" } },
+        "muted":    { "solid": { "value": "{color.tag.muted.solid.value}" },    "subtle": { "value": "{color.tag.muted.subtle.value}" } }
       }
     }
   }

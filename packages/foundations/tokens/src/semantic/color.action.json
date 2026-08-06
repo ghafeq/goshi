@@ -13,9 +13,30 @@
         "subtle": { "value": "{color.coolGray.10.value}" },
         "gradient": { "value": { "from": "{color.red.50.value}", "to": "{color.red.40.value}" }, "comment": "Pressed fill — Figma uses a gradient here, not a flat colour" }
       },
+      "success": { "solid": { "value": "{color.green.60.value}" },  "subtle": { "value": "{color.green.10.value}" },  "comment": "Confirmed from Figma Tag component" },
+      "info":    { "solid": { "value": "{color.blue.60.value}" },   "subtle": { "value": "{color.blue.10.value}" },   "comment": "Confirmed from Figma Tag component" },
+      "warning": { "solid": { "value": "{color.yellow.60.value}" }, "subtle": { "value": "{color.yellow.10.value}" }, "comment": "Confirmed from Figma Tag component" },
+      "entry": {
+        "backgroundDisabled": { "value": "{color.coolGray.20.value}", "comment": "Confirmed from Figma Tile component — Background/Inverse/Layer 2/Entry/Background.Disabled" },
+        "borderFocused": { "value": "{color.blue.60.value}", "comment": "Confirmed from Figma Tile component — Background/Inverse/Layer 2/Entry/Border.Focused. Same value as the standalone Tag/Card 'info' tone (blue.60) — likely the same real focus-ring colour Button's still-placeholder border.focus should eventually use." }
+      },
       "skeleton": {
-        "trough": { "value": "{color.coolGray.10.value}", "comment": "Universal skeleton-loading placeholder background, same across every button variant (confirmed from Figma — Primary/Secondary/Tertiary/Destructive all use this exact value for their Skeleton state)" }
+        "trough": { "value": "{color.coolGray.10.value}", "comment": "Button-specific skeleton-loading placeholder background (confirmed from Figma — Primary/Secondary/Tertiary/Destructive Buttons all use this exact value for their Skeleton state). Card/Tile use different trough shades per hierarchy — see action.entry.backgroundDisabled (light surfaces) and action.secondary.solid (Featured/dark surface), which is what their Skeleton placeholders actually reuse." }
       }
+    },
+    "surface": {
+      "layer1": {
+        "surface": { "value": "{color.white.value}", "comment": "Confirmed from Figma Cards & Tiles component — Background/Inverse/Layer 1/Surface. Standard hierarchy." },
+        "inline":  { "value": "{color.warmGray.10.value}", "comment": "Confirmed from Figma Cards & Tiles component — Background/Inverse/Layer 1/Inline. Embedded hierarchy." },
+        "overlay": { "value": "{color.coolGray.90.value}", "comment": "Confirmed from Figma Cards & Tiles component — Background/Inverse/Layer 1/Overlay. Featured hierarchy." }
+      }
+    },
+    "tag": {
+      "positive": { "solid": { "value": "{color.green.60.value}" },    "subtle": { "value": "{color.green.10.value}" } },
+      "critical": { "solid": { "value": "{color.red.60.value}" },      "subtle": { "value": "{color.red.10.value}" } },
+      "neutral":  { "solid": { "value": "{color.blue.60.value}" },     "subtle": { "value": "{color.blue.10.value}" } },
+      "pending":  { "solid": { "value": "{color.yellow.60.value}" },   "subtle": { "value": "{color.yellow.10.value}" } },
+      "muted":    { "solid": { "value": "{color.coolGray.80.value}" }, "subtle": { "value": "{color.coolGray.10.value}" }, "comment": "No Figma instance confirms the 6th documented tone, 'Caution' — flagged, not implemented. See docs/architecture/0007." }
     },
     "text": {
       "base": {
@@ -27,11 +48,18 @@
       },
       "feedback": {
         "inverse": {
-          "danger": {
-            "strong": { "value": "{color.red.60.value}" },
-            "low":    { "value": "{color.red.30.value}" }
-          }
+          "danger":  { "strong": { "value": "{color.red.60.value}" }, "low": { "value": "{color.red.30.value}" } },
+          "success": { "strong": { "value": "{color.green.80.value}" } },
+          "info":    { "strong": { "value": "{color.blue.80.value}" } },
+          "warning": { "strong": { "value": "{color.yellow.80.value}" } }
         }
+      },
+      "tag": {
+        "positive": { "value": "{color.green.80.value}" },
+        "critical": { "value": "{color.red.60.value}" },
+        "neutral":  { "value": "{color.blue.80.value}" },
+        "pending":  { "value": "{color.yellow.80.value}" },
+        "muted":    { "value": "{color.gray.100.value}" }
       }
     }
   }

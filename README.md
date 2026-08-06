@@ -15,16 +15,18 @@ start with
 [0005 — Consumer/Enterprise sharing & override model](docs/architecture/0005-consumer-enterprise-sharing-model.md)
 if you want the short version.
 
-> **Status.** Foundations are built. Consumer has its first three
-> components — Loader, Shimmer, Button — translated from the real Goshi
-> Design System (Consumer) Figma file; see
-> [0006 — Figma Consumer sync](docs/architecture/0006-figma-consumer-sync.md)
-> for exactly what's confirmed-real vs. still-placeholder, and what's
-> flagged rather than assumed (a **Tags** component was requested but has
-> no Figma design yet, so it isn't built). Enterprise has no components
-> yet. Colour/typography outside what those three Consumer components
-> touch is still placeholder — see
-> [0004 — Figma sync status](docs/architecture/0004-figma-sync-status.md).
+> **Status.** Foundations are built. Consumer has six components — Loader,
+> Shimmer, Button, Tag, Card, Tile — translated from the real Goshi Design
+> System (Consumer) Figma file; see
+> [0006](docs/architecture/0006-figma-consumer-sync.md) and
+> [0007](docs/architecture/0007-figma-consumer-sync-cards-tiles-tag.md) for
+> exactly what's confirmed-real vs. still-placeholder, and what's flagged
+> rather than assumed. Two composed patterns (Action Card, Media Tile) and
+> a possible Chip component remain — see
+> [consumer-figma-gap-audit.md](docs/architecture/consumer-figma-gap-audit.md)
+> for the living list. Enterprise has no components yet. Colour/typography
+> outside what these six Consumer components touch is still placeholder —
+> see [0004](docs/architecture/0004-figma-sync-status.md).
 
 ## Package layout
 
@@ -42,7 +44,10 @@ packages/
       loader/        @goshi/consumer-components-loader   indeterminate spinner
       shimmer/       @goshi/consumer-components-shimmer  skeleton-loading sweep highlight
       button/        @goshi/consumer-components-button   3 sizes x 2 shapes x 4 variants x 5 states
-    patterns/          reserved — not built yet
+      tag/           @goshi/consumer-components-tag      non-interactive status/category label
+      card/          @goshi/consumer-components-card     informational card
+      tile/          @goshi/consumer-components-tile     selectable/navigational tile
+    patterns/          reserved — not built yet (Action Card, Media Tile next)
 
   enterprise/
     tokens/          @goshi/enterprise-tokens      ent.* — aliases foundations + ent typography
@@ -92,8 +97,10 @@ object-access path in code — see
 
 ## Status / what's next
 
-Not yet started: Tags (blocked on a Figma design), Enterprise components,
-patterns, Storybook, Figma Code Connect, visual regression testing, and an
-actual publish/release CI job (Changesets is configured but nothing has
-shipped a release yet). See the architecture docs for what each of those
-will build on top of.
+Not yet started: the Action Card and Media Tile composed patterns (both
+buildable now — everything they're made of already exists as a package),
+a possible Chip component (mentioned in Figma prose, no node located yet),
+Enterprise components, Storybook, Figma Code Connect, visual regression
+testing, and an actual publish/release CI job (Changesets is configured
+but nothing has shipped a release yet). See the architecture docs for what
+each of those will build on top of.

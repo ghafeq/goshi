@@ -35,7 +35,7 @@
       "60": { "value": "#697077", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
       "70": { "value": "#4D5358", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
       "80": { "value": "#343A3F", "comment": "Confirmed from Figma Goshi Design System (Consumer) — Buttons component, via Background/Inverse/Layer 2/Action/Secondary.Solid" },
-      "90": { "value": "#21272A", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "90": { "value": "#21272A", "comment": "Confirmed from Figma Goshi Design System (Consumer) — Cards & Tiles component, via Background/Inverse/Layer 1/Overlay (Featured hierarchy)" },
       "100": { "value": "#121619", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" }
     },
     "red": {
@@ -51,43 +51,40 @@
       "100": { "value": "#2D0709", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" }
     },
     "blue": {
-      "50":  { "value": "#EEF4FF", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "100": { "value": "#D9E6FF", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "200": { "value": "#B3CCFF", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "300": { "value": "#80AAFF", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "400": { "value": "#4D87FF", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "500": { "value": "#1F5EFF", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "600": { "value": "#1348D6", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "700": { "value": "#0E36A3", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "800": { "value": "#0A2670", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "900": { "value": "#071A4D", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "950": { "value": "#040F2E", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" }
+      "10":  { "value": "#EDF5FF", "comment": "Confirmed from Figma Goshi Design System (Consumer) — Cards & Tiles / Tag components, via Background/Inverse/Layer 2/Action/Info.Subtle" },
+      "20":  { "value": "#D0E2FF", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "30":  { "value": "#A6C8FF", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "40":  { "value": "#78A9FF", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "50":  { "value": "#4589FF", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "60":  { "value": "#0F62FE", "comment": "Confirmed from Figma Goshi Design System (Consumer) — Cards & Tiles / Tag components, via Background/Inverse/Layer 2/Action/Info.Solid and Entry/Border.Focused" },
+      "70":  { "value": "#0043CE", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "80":  { "value": "#002D9C", "comment": "Confirmed from Figma Goshi Design System (Consumer) — Tag component, via Text/Feedback/Inverse/Info.Strong" },
+      "90":  { "value": "#001D6C", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "100": { "value": "#001141", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" }
     },
     "green": {
-      "50":  { "value": "#EAFBF1", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "100": { "value": "#CFF5DE", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "200": { "value": "#9EEABE", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "300": { "value": "#66D89A", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "400": { "value": "#34C078", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "500": { "value": "#189D5C", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "600": { "value": "#117D49", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "700": { "value": "#0E5F38", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "800": { "value": "#0B4529", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "900": { "value": "#082F1C", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "950": { "value": "#051C10", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" }
+      "10":  { "value": "#DEFBE6", "comment": "Confirmed from Figma Goshi Design System (Consumer) — Tag component, via Background/Inverse/Layer 2/Action/Success.Subtle" },
+      "20":  { "value": "#A7F0BA", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "30":  { "value": "#6FDC8C", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "40":  { "value": "#42BE65", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "50":  { "value": "#24A148", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "60":  { "value": "#198038", "comment": "Confirmed from Figma Goshi Design System (Consumer) — Tag component, via Background/Inverse/Layer 2/Action/Success.Solid" },
+      "70":  { "value": "#0E6027", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "80":  { "value": "#044317", "comment": "Confirmed from Figma Goshi Design System (Consumer) — Tag component, via Text/Feedback/Inverse/Success.Strong" },
+      "90":  { "value": "#022D0D", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "100": { "value": "#071908", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" }
     },
-    "amber": {
-      "50":  { "value": "#FFF8E8", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "100": { "value": "#FFEBBE", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "200": { "value": "#FFD782", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "300": { "value": "#FFBE42", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "400": { "value": "#F5A312", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "500": { "value": "#D5850A", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "600": { "value": "#AD6707", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "700": { "value": "#844E08", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "800": { "value": "#5C370A", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "900": { "value": "#3D2409", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" },
-      "950": { "value": "#241505", "comment": "PLACEHOLDER — pending export from Figma Colour Library (not yet reviewed this pass)" }
+    "yellow": {
+      "10":  { "value": "#FCF4D6", "comment": "Confirmed from Figma Goshi Design System (Consumer) — Tag component, via Background/Inverse/Layer 2/Action/Warning.Subtle" },
+      "20":  { "value": "#FDDC69", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "30":  { "value": "#F1C21B", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "40":  { "value": "#D2A106", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "50":  { "value": "#B28600", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "60":  { "value": "#8E6A00", "comment": "Confirmed from Figma Goshi Design System (Consumer) — Tag component, via Background/Inverse/Layer 2/Action/Warning.Solid" },
+      "70":  { "value": "#684E00", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "80":  { "value": "#483700", "comment": "Confirmed from Figma Goshi Design System (Consumer) — Tag component, via Text/Feedback/Inverse/Warning.Strong" },
+      "90":  { "value": "#302400", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" },
+      "100": { "value": "#1C1500", "comment": "PLACEHOLDER — interpolated, pending direct Figma export" }
     }
   }
 }

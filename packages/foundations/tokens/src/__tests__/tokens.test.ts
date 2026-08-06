@@ -3,7 +3,7 @@ import { primitives, semanticByMode } from '../index.js';
 
 describe('foundation tokens', () => {
   it('resolves the primitive colour ramp', () => {
-    expect(primitives.color.blue['500']).toMatch(/^#[0-9A-Fa-f]{6}$/);
+    expect(primitives.color.blue['60']).toMatch(/^#[0-9A-Fa-f]{6}$/);
     expect(primitives.color.gray['100']).toMatch(/^#[0-9A-Fa-f]{6}$/);
   });
 
@@ -12,6 +12,9 @@ describe('foundation tokens', () => {
     expect(primitives.color.warmGray['90']).toBe('#272525');
     expect(primitives.color.coolGray['50']).toBe('#878D96');
     expect(primitives.color.red['60']).toBe('#DA1E28');
+    expect(primitives.color.blue['60']).toBe('#0F62FE');
+    expect(primitives.color.green['60']).toBe('#198038');
+    expect(primitives.color.yellow['60']).toBe('#8E6A00');
   });
 
   it('resolves the primitive spacing scale', () => {
